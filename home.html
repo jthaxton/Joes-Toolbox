@@ -9,22 +9,25 @@
     <script src="main.js"></script>
     
 </head>
-<header>
+<div id="head">
     <a href="https://github.com/jthaxton">Github</a>
     <a href="https://www.linkedin.com/in/josephthaxton/">Linkedin</a>
     <a href="https://clever-kare-307f55.netlify.com/">Portfolio</a>
-</header>
+</div>
 
 
 <body>
-    <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
-        <input name="sitesearch" type="hidden" value="">
-        <input id='search' autocomplete="on" class="form-control search" name="q" placeholder="Powered by Google" required="required"
-            type="text">
-    </form>
+    <div id="searchbar">
+        <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+            <input name="sitesearch" type="hidden" value="">
+            <input id='search' autocomplete="on" class="form-control search" name="q" placeholder="Powered by Google" required="required"
+                type="text">
+        </form>
+    </div>
 
-<iframe frameborder="0" width="100%" height="300px" src="https://repl.it/@jthaxton/BraveConsiderableInfo?lite=true"></iframe>
-
+    <div id="repl">
+        <iframe frameborder="0" width="100%" height="400px" src="https://repl.it/@jthaxton/BraveConsiderableInfo?lite=true"></iframe>
+    </div>
 
     <button onclick="show()">Show Urls</button>
     <div id="hide">

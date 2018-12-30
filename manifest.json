@@ -1,0 +1,18 @@
+{
+    "name": "Joes Workspace",
+    "version": "1.0",
+    "description": "",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "main.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "home.html"
+    },
+    "manifest_version": 2
+}

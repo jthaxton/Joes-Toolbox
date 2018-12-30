@@ -1,3 +1,12 @@
+#head {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#head a {
+    padding: 10px;
+}
+
 #hide {
     visibility: hidden;
 }
@@ -9,6 +18,41 @@
 
 #search {
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     height: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 80%;
+    
+}
+
+body {
+    display: block;
+    justify-content: center;
+    background-image: url('citydriving.gif');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+
+}
+
+#repl {
+    padding: 30px;
+    width: 80%
+}
+
+li {
+    color: white;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
